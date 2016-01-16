@@ -5,3 +5,8 @@ function clock() {
 }
 setInterval('clock()', 1000);
 
+window.setInterval(function(){
+    var time =  new Date();
+
+    document.getElementById("timer").innerText = time.getHours() + ":" + time.getMinutes() + ":" + time.getSeconds();
+}, 1);

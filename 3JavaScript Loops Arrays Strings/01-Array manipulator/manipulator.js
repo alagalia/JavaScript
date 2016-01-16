@@ -1,10 +1,10 @@
-var arr = ["Pesho", 2, "Gosho", 12, 2, "true", 9, undefined, 0, "Penka", { bunniesCount : 10}, [10, 20, 30, 40]];
+var arr = ["Pesho", 2, "Gosho", 12, 2, "true", 9, undefined, 0, '1111', "Penka", { bunniesCount : 10}, [10, 20, 30, 40]];
 var frequentNum;
 
 // filters only numbers
 var nums = arr.filter(function(num) {
     return !isNaN(num) &&
-        parseInt(Number(num)) == num &&
+        parseInt(Number(num)) === num &&
         !isNaN(parseInt(num, 10));
 })
 
