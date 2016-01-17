@@ -15,3 +15,7 @@ compareObjects(a, b);
 var c = {name: 'Pesho', age: 21};
 var e = c;
 compareObjects(c, e);
+
+for (var i in arr) {
+
+}
